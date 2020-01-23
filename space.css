@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-size: 0;
+    overflow: hidden
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-size: 0;
+    overflow: hidden
+    z-index: 5;
+}
+
+canvas {
+    background-color: #000000;
+    overflow: hidden
+    z-index: 5;
+}
+
+#starfield {
+    background-color:#000000;
+    z-index: 5;
+}
+
+#adsense {
+    position:st;
+    background-color:transparent;
+    display:none;
+    z-index: 5;
+}
+
+.content {
+    position: fixed;
+    z-index: 1;
+    top: 40%;
+    left: 20%;
+    margin: 0 auto;
+}
